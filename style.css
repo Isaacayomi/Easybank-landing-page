@@ -16,7 +16,8 @@
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
-  transition: 0.4s linear;
+  list-style-type: none;
+  /* transition: 0.4s linear; */
 }
 
 body {
@@ -59,9 +60,54 @@ nav {
   max-width: 350px;
   margin-inline: auto;
   margin-top: -9rem;
+  margin-bottom: 1.3rem;
 }
 
 .mockups img {
   width: 100%;
   height: auto;
+}
+
+.section__1 .header__text {
+  font-size: 2.3rem;
+  color: var(--Dark_Blue);
+  font-weight: 500;
+  margin-inline: auto;
+  margin-bottom: 0.8rem;
+  text-align: center;
+  line-height: 2.8rem;
+}
+
+.section__1 .header__paragraph {
+  font-size: 0.96rem;
+  width: 90%;
+  margin-inline: auto;
+  text-align: center;
+  line-height: 1.4rem;
+  color: var(--Grayish_Blue);
+  margin-bottom: 1.6rem;
+}
+
+.section__1 .btn {
+  max-width: 50%;
+  display: block;
+  margin-inline: auto;
+  padding-inline: 1.2rem;
+  padding-block: 0.75rem;
+  border-radius:5rem;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(
+    to right,
+    var(--Lime_Green),
+    var(--Bright_Cyan)
+  );
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 5rem;
+}
+
+buton:hover {
+  cursor: pointer;
 }
