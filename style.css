@@ -22,4 +22,46 @@
 body {
   font-family: "Public Sans", sans-serif;
   font-size: 18px;
+  background-image: url(./images/bg-intro-mobile.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 1.3rem;
+  padding-block: 1.5rem;
+  margin-bottom: 1rem;
+  background-color: var(--White);
+  position: sticky;
+  z-index: 2;
+}
+
+.nav__logo {
+  max-width: 150px;
+  width: 100%;
+}
+
+.nav__logo img {
+  width: 100%;
+  height: auto;
+}
+
+.nav__links {
+  display: none;
+}
+
+.mockups {
+  max-width: 350px;
+  margin-inline: auto;
+  margin-top: -9rem;
+}
+
+.mockups img {
+  width: 100%;
+  height: auto;
 }
