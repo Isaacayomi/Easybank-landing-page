@@ -27,27 +27,34 @@
             <a href="#"><img src="./images/logo.svg" alt="Logo" /></a>
           </div>
           <div class="hamburger__icon">
-            <img src="./images/icon-hamburger.svg" alt="hamburger-icon" class="openIcon"/>
-            <img src="./images/icon-close.svg" alt="close-icon" class="closeIcon hide">
+            <img
+              src="./images/icon-hamburger.svg"
+              alt="hamburger-icon"
+              class="openIcon"
+            />
+            <img
+              src="./images/icon-close.svg"
+              alt="close-icon"
+              class="closeIcon hide"
+            />
           </div>
         </div>
 
-        <ul class="nav__links">
-          <li class="nav__link"><a href="#">Home</a></li>
-          <li class="nav__link"><a href="#">About</a></li>
-          <li class="nav__link"><a href="#">Contact</a></li>
-          <li class="nav__link"><a href="#">Blog</a></li>
-          <li class="nav__link"><a href="#">Careers</a></li>
-          
+        <ul class="nav__links nav__items">
+          <li class="nav__link"><a href="#section-1" class="link">Home</a></li>
+          <li class="nav__link"><a href="#section-2" class="link">About</a></li>
+          <li class="nav__link"><a href="#section-4" class="link">Contact</a></li>
+          <li class="nav__link"><a href="#section-3" class="link">Blog</a></li>
+          <li class="nav__link"><a href="#footer" class="link">Careers</a></li>
         </ul>
-        <li class="nav__link" style="display: none;">
+        <li class="nav__link" style="display: none">
           <a href="#" class="nav__link"> Request Invite</a>
         </li>
       </nav>
     </header>
 
     <main>
-      <section class="section__1">
+      <section class="section__1" id="section-1">
         <div class="mockups">
           <img src="./images/image-mockups.png" alt="mockups" />
         </div>
@@ -62,7 +69,7 @@
         </div>
       </section>
 
-      <section class="section__2">
+      <section class="section__2" id="section-2">
         <h2>Why choose Easybank?</h2>
         <p class="sub__text">
           We leverage Open Banking to turn your bank account into your financial
@@ -114,7 +121,7 @@
         </div>
       </section>
 
-      <section class="section__3">
+      <section class="section__3" id="section-3">
         <h3 class="section__header">Latest Articles</h3>
 
         <div class="blogs">
@@ -197,7 +204,7 @@
       </section>
     </main>
 
-    <footer>
+    <footer id="section-4">
       <div class="footer__logo">
         <a href="#">
           <img src="./images/logo-dark.svg" alt="logo" />
@@ -224,11 +231,12 @@
       </div>
 
       <nav class="footer__nav">
-        <ul>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Careers</a></li>
+        <ul class="nav__items">
+          <li class="nav__link"><a href="#section-1" class="link">Home</a></li>
+          <li class="nav__link"><a href="#section-2" class="link">About</a></li>
+          <li class="nav__link"><a href="#section-4" class="link">Contact</a></li>
+          <li class="nav__link"><a href="#section-3" class="link">Blog</a></li>
+          <li class="nav__link"><a href="#footer" class="link">Careers</a></li>
           <li><a href="#">Support</a></li>
           <li><a href="#">Privacy Policy</a></li>
           <button class="footer__btn">Request Invite</button>
