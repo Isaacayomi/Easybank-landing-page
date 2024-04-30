@@ -182,6 +182,48 @@ button:hover {
   font-size: 1.8rem;
   font-weight: 500;
   padding-top: 1rem;
-  padding-bottom:1.3rem;
+  padding-bottom: 1.3rem;
+}
 
+.blog__img {
+  max-width: 90%;
+  margin-inline: auto;
+}
+
+.blog__img img {
+  width: 100%;
+  height: 12rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.blog .author {
+  font-size: 0.85rem;
+  margin-left: 1rem;
+  padding-bottom: 0.7rem;
+  color: var(--Grayish_Blue);
+}
+
+.blog .blog__heading {
+  font-size: 1rem;
+  max-width: 90%;
+  margin-inline: auto;
+  color: var(--Dark_Blue);
+  font-weight: 500;
+  letter-spacing: -0.001rem;
+  padding-bottom: 0.7rem;
+}
+
+.blog__summary {
+  padding-inline: 2rem;
+  padding-block: 1.6rem;
+  color: var(--Grayish_Blue);
+  font-weight: 400;
+  margin-bottom:1.3rem;
+}
+
+.blog__snippet {
+  margin-left: 1rem;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
 }
