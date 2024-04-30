@@ -371,3 +371,111 @@ ion-icon:hover {
 .hide {
   display: none;
 }
+
+@media screen and (min-width: 425px) {
+  .section__1 .header__text {
+    padding-top: 2.3rem;
+    max-width: 90%;
+    margin-inline: auto;
+    margin-bottom: 0.9rem;
+  }
+
+  .section__1 .header__paragraph {
+    max-width: 85%;
+  }
+
+  .section__2 .sub__text {
+    max-width: 78%;
+  }
+
+  .icon {
+    max-width: 15%;
+    margin-bottom: 1rem;
+  }
+
+  .icon img {
+    width: 100%;
+  }
+
+  .section__2 p {
+    max-width: 75%;
+  }
+}
+
+@media screen and (min-width: 475px) {
+  .section__1 .header__text {
+    max-width: 80%;
+    margin-top: 3.3rem;
+  }
+
+  .section__1 .header__paragraph {
+    margin-top: 1.6rem;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    max-width: 85%;
+  }
+
+  .section__1 .btn {
+    font-size: 1rem;
+    width: 40%;
+    padding-inline: 2rem;
+    padding-block: 1.2rem;
+  }
+
+  .section__2 p.sub__text {
+    max-width: 85%;
+    font-size: 1.1rem;
+    line-height: 1.63rem;
+  }
+
+  .section__2 p {
+    font-size: 1.1rem;
+    line-height: 1.63rem;
+  }
+
+  .section__2 h3 {
+    font-size: 1.5rem;
+  }
+
+  .grouped {
+    padding-bottom: 2.3rem;
+  }
+
+  .author {
+    font-size: 0.9rem;
+    padding-left: 2.2rem;
+  }
+
+  .blog .blog__heading {
+    max-width: 75%;
+    font-size: 1.2rem;
+    margin-bottom: 0.1rem;
+  }
+
+  .blog__snippet {
+    font-size: 1rem;
+    max-width: 90%;
+    line-height: 1.35rem;
+    margin-left: 3.2rem;
+  }
+
+  .blog__img img {
+    height: 13rem;
+  }
+
+  .social__icons {
+    gap: 0.9rem;
+  }
+
+  ion-icon {
+    font-size: 1.6rem;
+  }
+
+  .footer__nav ul li a {
+    font-size: 1rem;
+  }
+
+  .footer__nav ul {
+    gap: 1.2rem;
+  }
+}

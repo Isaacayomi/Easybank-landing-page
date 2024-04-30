@@ -33,7 +33,6 @@ document.querySelector(".nav__items").addEventListener("click", function (e) {
     const id = e.target.getAttribute("href");
     document.querySelector(id).scrollIntoView({ behavior: "smooth" });
     body.style.overflow = "scroll";
-
     closeMenu();
   }
 });
