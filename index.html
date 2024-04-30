@@ -22,11 +22,14 @@
   <body>
     <header>
       <nav class="header__nav">
-        <div class="nav__logo">
-          <a href="#"><img src="./images/logo.svg" alt="Logo" /></a>
-        </div>
-        <div class="hamburger">
-          <img src="./images/icon-hamburger.svg" alt="hamburger-icon" />
+        <div class="nav">
+          <div class="nav__logo">
+            <a href="#"><img src="./images/logo.svg" alt="Logo" /></a>
+          </div>
+          <div class="hamburger__icon">
+            <img src="./images/icon-hamburger.svg" alt="hamburger-icon" class="openIcon"/>
+            <img src="./images/icon-close.svg" alt="close-icon" class="closeIcon hide">
+          </div>
         </div>
 
         <ul class="nav__links">
@@ -35,10 +38,11 @@
           <li class="nav__link"><a href="#">Contact</a></li>
           <li class="nav__link"><a href="#">Blog</a></li>
           <li class="nav__link"><a href="#">Careers</a></li>
-          <li class="nav__link">
-            <a href="#" class="nav__link"> Request Invite</a>
-          </li>
+          
         </ul>
+        <li class="nav__link" style="display: none;">
+          <a href="#" class="nav__link"> Request Invite</a>
+        </li>
       </nav>
     </header>
 
@@ -242,5 +246,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -31,16 +31,17 @@ body {
   scroll-behavior: smooth;
 }
 
-nav.header__nav {
+nav.header__nav .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding-inline: 1.3rem;
   padding-block: 1.5rem;
   margin-bottom: 1rem;
   background-color: var(--White);
   position: sticky;
-  z-index: 2;
+  z-index: 3;
 }
 
 .nav__logo {
@@ -52,7 +53,7 @@ nav.header__nav {
   cursor: pointer;
 }
 
-.hamburger img:hover {
+.hamburger__icon img:hover {
   cursor: pointer;
 }
 
@@ -62,7 +63,28 @@ nav.header__nav {
 }
 
 .nav__links {
-  display: none;
+  position: absolute;
+  top: 2.2%;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 90%;
+  margin-inline: auto;
+  padding-block: 2rem;
+  padding-inline: 2rem;
+  border-radius: 0.5rem;
+  background-color: var(--White);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.nav__links li a {
+  color: var(--Dark_Blue);
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .mockups {
@@ -330,4 +352,9 @@ ion-icon:hover {
   color: var(--Grayish_Blue);
   padding-top: 1rem;
   padding-bottom: 3rem;
+}
+
+/* Open and Close Icon */
+.hide {
+  display: none;
 }
