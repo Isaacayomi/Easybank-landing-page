@@ -403,6 +403,12 @@ ion-icon:hover {
 }
 
 @media screen and (min-width: 475px) {
+  .mockups {
+    max-width: 400px;
+    margin-top: -6rem;
+    margin-bottom: -5rem;
+
+  }
   .section__1 .header__text {
     max-width: 80%;
     margin-top: 3.3rem;
@@ -443,20 +449,22 @@ ion-icon:hover {
 
   .author {
     font-size: 0.9rem;
-    padding-left: 2.2rem;
+    /* padding-left: 2.2rem; */
   }
 
   .blog .blog__heading {
     max-width: 75%;
     font-size: 1.2rem;
     margin-bottom: 0.1rem;
+    margin-inline: 0;
+    margin-left: 1rem;
   }
 
   .blog__snippet {
     font-size: 1rem;
     max-width: 90%;
     line-height: 1.35rem;
-    margin-left: 3.2rem;
+    /* margin-left: 3.2rem; */
   }
 
   .blog__img img {
