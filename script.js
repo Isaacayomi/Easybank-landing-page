@@ -4,7 +4,6 @@ const openNav = document.querySelector(".openIcon");
 const closeNav = document.querySelector(".closeIcon");
 const navLinks = document.querySelector(".nav__links");
 
-navLinks.style.display = "none";
 
 main.classList.remove("addOverlay");
 
