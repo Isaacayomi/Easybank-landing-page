@@ -627,6 +627,16 @@ ion-icon:hover {
     background-size: 100% 800px;
   }
 
+  nav.header__nav .nav {
+    padding-inline: 3.5rem;
+  }
+
+  .section__1 .btn {
+    max-width: 25%;
+    width: 100%;
+    padding-inline: 0;
+  }
+
   .section__2 h2 {
     text-align: left;
     width: 100%;
@@ -698,5 +708,40 @@ ion-icon:hover {
     justify-content: center;
     text-align: left;
   }
+}
 
+@media screen and (min-width: 1024px) {
+  .nav__links {
+    gap: 2rem;
+  }
+
+  body {
+    background-image:none;
+  }
+
+  .mockups {
+    margin-right: 0;
+    /* margin-top: -13rem; */
+    background-image: url('./images/bg-intro-desktop.svg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* max-width: 500px; */
+  }
+/* 
+  .mockups img {
+    width: 100%;
+  } */
+
+  .section__1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+
+  .section__1 .header__text {
+    padding-top: 0;
+    margin-top: 0;
+  }
+  
 }
