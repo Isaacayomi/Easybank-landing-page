@@ -742,6 +742,31 @@ ion-icon:hover {
   .section__1 .header__text {
     padding-top: 0;
     margin-top: 0;
+    margin-inline: 0;
+    font-size: 2.8rem;
+    line-height: 3rem;
+    text-align: left;
+    padding-left: 4rem;
+    max-width: 80%;
   }
+
+  .section__1 .header__paragraph {
+    margin-inline: 0;
+    padding-left: 4rem;
+    text-align: left;
+    max-width: 83%;
+    font-size: 1rem;
+  }
+
+.section__1 .btn {
+  margin-inline: 0;
+  margin-left: 4rem;
+  max-width: 28%;
+  font-size: 0.8rem;
+}
+
+.section__1__text {
+  margin-top: 4rem;
+}
   
 }
